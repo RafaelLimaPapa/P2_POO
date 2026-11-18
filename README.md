@@ -1,2 +1,7 @@
-ALUNO: Matheus Lopes Trentino RA:2027
-ALUNO: Rafael Lima Papa RA:2011
+Projeto produzido para a prova de Programação orientada a objetos, mostrando conhecimentos sobre:
+-Encapsulamento
+-Herança
+-Construtores
+-Polimorfismo
+-Coleções
+-Classes x Objetos

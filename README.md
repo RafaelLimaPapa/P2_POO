@@ -1,12 +1,32 @@
-Projeto produzido para a prova de Programação orientada a objetos, produzido em JAVA, apresentando um duelo entre personagens de tipos diferentes
-sendo um deles o bardo e o outro o caçador, cada um com suas particularidades na escolha de ações.
-Também há o armazenamento dos dados em um banco de dados utilizando o PostgreSQL. 
+Duelo de Personagens: Bardo x Caçador
 
-O projeto desenvolvido em JAVA apresenta conhecimentos como:
--Encapsulamento
--Herança
--Construtores
--Polimorfismo
--Coleções
--Classes x Objetos
--Banco de dados
+Projeto desenvolvido para a avaliação de Programação Orientada a Objetos, em Java, com persistência de dados em PostgreSQL. O programa simula um duelo entre dois personagens de classes diferentes, o Bardo e o Caçador, cada um com suas próprias ações.
+
+Funcionalidades
+
+- Duelo por turnos entre Bardo e Caçador
+- Armazenamento dos dados no banco PostgreSQL
+
+Conceitos de POO aplicados
+
+| Conceito          | Onde foi aplicado |
+|-------------------|-------------------|
+| Encapsulamento    | atributos privados com getters e setters nas classes de personagem |
+| Herança           | Bardo e Caçador herdam da classe Personagem |
+| Polimorfismo      | Cada personagem sobrescreve suas probabilidades |
+| Construtores      | Criação dos personagens com nome e atributos iniciais |
+| Coleções          | ArrayList para armazenar itens e musicas |
+| Classes x Objetos | Instâncias de Bardo e Caçador no duelo |
+| Banco de dados    | Persistência com PostgreSQL via JDBC |
+
+Tecnologias
+
+- PostgreSQL [versão]
+- Driver JDBC do PostgreSQL (pasta `lib`)
+- VS Code
+
+Autor
+
+Rafael Lima Papa
+Estudante de Análise e Desenvolvimento de Sistemas, Fatec Ipiranga
+[LinkedIn](https://www.linkedin.com/in/rafaellimapapa/) | [GitHub](https://github.com/RafaelLimaPapa)
